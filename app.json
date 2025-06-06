@@ -17,13 +17,13 @@
       "supportsTablet": true,
       "bundleIdentifier": "com.shreyas.SwiftPedal",
       "config": {
-                "googleMapsApiKey": "AIzaSyDjBcQXg3MZ1dWdiuQ62QTrduod_ylDNqo"
+                "googleMapsApiKey": "yourGoogleApiKey"
             }
     },
     "android": {
       "config": {
                 "googleMaps": {
-                    "apiKey": "AIzaSyDjBcQXg3MZ1dWdiuQ62QTrduod_ylDNqo"
+                    "apiKey": "yourGoogleApiKey"
                 }
             },
       "adaptiveIcon": {
