@@ -1,0 +1,18 @@
+{
+  "extends": "expo/tsconfig.base",
+  "compilerOptions": {
+    "strict": true,
+    "moduleResolution": "bundler",         // ✅ REQUIRED for Expo Router + TS
+    "baseUrl": ".",                         // 👈 Root should be "."
+    "paths": {
+      "@/*": ["src/*"]                      // ✅ So "@/service" = "src/service"
+    },
+    "skipLibCheck": true,                   // ✅ Fixes .d.ts errors from node_modules
+    "types": ["react", "react-native"]      // ✅ Type support for JSX/Native APIs
+  },
+  "include": [
+    "src",
+    ".expo/types/**/*.ts",
+    "expo-env.d.ts"
+  ]
+}
